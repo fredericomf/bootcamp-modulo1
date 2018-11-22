@@ -2,11 +2,11 @@
 Lessons of Bootcamp Module 1
 
 ```bash
-echo "# sdfdsf" >> README.md
+echo "# bootcamp-modulo1" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/fredericomf/sdfdsf.git
+git remote add origin https://github.com/fredericomf/bootcamp-modulo1.git
 git push -u origin master
 ```
 
