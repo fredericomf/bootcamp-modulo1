@@ -1,0 +1,8 @@
+{
+  "name": "modulo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fredericomf/bootcamp-modulo1.git",
+  "author": "Frederico Mottinha de Figueiredo <contato@fredericomf.com>",
+  "license": "MIT"
+}
