@@ -21,3 +21,11 @@ yarn init -y
 ```
 _Note que a opção -y serve para aceitar os valores padrões de inicialização do projeto_
 
+Após instalar o 'nodemon', devemos adicionar os scripts no package.json:
+
+```javascript
+"scripts" : {
+    "start": "nodemon index.js"
+}
+```
+_Lembrando que o nodemon deve ser instalado como DEVELOPMENT MODE (yarn add nodemon -D)_

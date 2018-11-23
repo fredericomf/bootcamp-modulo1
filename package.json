@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/fredericomf/bootcamp-modulo1.git",
   "author": "Frederico Mottinha de Figueiredo <contato@fredericomf.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts":{
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
 }
