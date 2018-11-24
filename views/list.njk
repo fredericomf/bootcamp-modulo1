@@ -1,0 +1,14 @@
+
+{# NOTA_ESTUDO: As duas chaves servem para dizer que quero renderizar uma variável #}
+{# <h1>Bem vindo, {{ name }}</h1> #}
+
+<h1>Listagem de usuários</h1>
+
+<ul>
+{# O uso de '{%%}' serve para quando usaremos LOOP ou IF #}
+    {% for user in users %}
+        <li>{{ user }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/new">Cadastrar usuário</a>
